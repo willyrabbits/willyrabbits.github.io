@@ -15,9 +15,7 @@ var j = 0;
 var speed = 50;
 // tryin to make a typing effect, but using setInervat + setTimeout is not a good idea
 function typeWriter(elem, txt) {
-    console.log(txt)
     if (j < txt.length) {
-        console.log(txt.charAt(j))
         elem.innerHTML += txt.charAt(j)
         j++;
         setTimeout(typeWriter(elem, txt), speed);

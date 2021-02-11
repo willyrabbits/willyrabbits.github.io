@@ -4,6 +4,7 @@ body {
     display: flex;
     font-family: Helvetica, Arial, sans-serif;
     padding: 0 15%;
+    text-align: justify;
 }
 p, li{
     padding-top: 1%;
