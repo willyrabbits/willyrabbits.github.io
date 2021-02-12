@@ -45,9 +45,10 @@ ul {
 }
 #headline-title >h1{
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 #headline-title > h3{
+    font-size: 1.2em;
     color: darkgray;
     margin-top: 0;
 }
@@ -60,22 +61,21 @@ ul {
     -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
 }
-#looking-prof-skills{
-    font-style: italic;
-}
-#content {}
 #content img {
     width: 300px;
 }
 #content .section-header {
-    width: 100%;
     color:black;
     background-color: var(--main-color);
-    padding: 3px;
+    padding: 5px;
+    padding-left: 10px;
     margin-top: 10px;
     text-transform: uppercase;
 
 }
 .bold{
     font-weight: bold;
+}
+.italic {
+    font-style: italic;
 }
