@@ -73,6 +73,16 @@ ul {
     text-transform: uppercase;
 
 }
+#content #trips-pictures {
+    line-height: 0;
+    /* height: 200px; */
+    /* overflow-y: hidden; */
+    /* overflow-x: scroll; */
+}
+#content .trip-image {
+    width: 200px;
+    height: 200px;
+}
 .bold{
     font-weight: bold;
 }
