@@ -76,12 +76,13 @@ ul {
 #content #trips-pictures {
     line-height: 0;
     /* height: 200px; */
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
     /* overflow-x: scroll; */
+    display: flex;
+    flex-wrap: nowrap;
 }
 #content .trip-image {
-    width: 200px;
-    height: 200px;
+    width: 23%;
 }
 .bold{
     font-weight: bold;
