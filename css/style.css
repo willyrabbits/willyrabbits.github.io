@@ -75,9 +75,7 @@ ul {
 }
 #content #trips-pictures {
     line-height: 0;
-    /* height: 200px; */
     overflow-y: hidden;
-    /* overflow-x: scroll; */
     display: flex;
     flex-wrap: nowrap;
 }

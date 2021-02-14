@@ -21,22 +21,22 @@ function typeWriter(elem, txt) {
 }
 
 const tripsPics = [
-    { file: "bali.jpeg", desc: "visiting 'tanah lot' @Bali" },
-    { file: "banff.jpeg", desc: "walking trough the streets of Banff, in the Rockie Mountains @Canada" },
-    { file: "big white.jpeg", desc: "the time i've seen more snow in my life @BigWhite" },
-    { file: "broken leg.jpeg", desc: "X-Ray after my surgery @Barcelona" },
-    { file: "hollywood.jpeg", desc: "visiting the Hollywood sign @LA" },
-    { file: "melbourne.jpeg", desc: "me sitting on a typical icon of @Melbourne" },
     { file: "moscow.jpeg", desc: "me in the red square @Moscow" },
-    { file: "skydive.jpeg", desc: "skydiving despite that i'm affraid of height @Mission Beeach,AUS" },
     { file: "surfers paradise.jpeg", desc: "me just landed @SurfersParadise" },
     { file: "surfing.jpeg", desc: "one of the first waves i've rided @SnapperRocks" },
-    { file: "sydney half marathon.jpeg", desc: "me after finishing the Sydney Half Marathon @Sydneey" },
-    { file: "sydney opera.jpeg", desc: "first time you see the Opera looks awesome @Sydney" },
-    { file: "uluru.jpeg", desc: "Uluru (or Ayers Rock) is onee of the most breath-taking places i've ever been @Australia" },
-    { file: "van.jpeg", desc: "pic of the good days in the van @Australia" },
-    { file: "whistler.jpeg", desc: "when swiming on a Lake filled with the water of the melted snow, freezing as hell @Whistler" },
     { file: "xmas aus.jpeg", desc: "celebrating x-mas at summer-time is a strange experience @Australia" },
+    { file: "broken leg.jpeg", desc: "X-Ray after my surgery @Barcelona" },
+    { file: "skydive.jpeg", desc: "skydiving despite that i'm affraid of height @Mission Beeach,AUS" },
+    { file: "sydney opera.jpeg", desc: "first time you see the Opera looks awesome @Sydney" },
+    { file: "sydney half marathon.jpeg", desc: "me after finishing the Sydney Half Marathon @Sydneey" },
+    { file: "van.jpeg", desc: "pic of the good days in the van @Australia" },
+    { file: "uluru.jpeg", desc: "Uluru (or Ayers Rock) is onee of the most breath-taking places i've ever been @Australia" },
+    { file: "melbourne.jpeg", desc: "me sitting on a typical icon of @Melbourne" },
+    { file: "bali.jpeg", desc: "visiting 'tanah lot' @Bali" },
+    { file: "hollywood.jpeg", desc: "visiting the Hollywood sign @LA" },
+    { file: "banff.jpeg", desc: "walking trough the streets of Banff, in the Rockie Mountains @Canada" },
+    { file: "big white.jpeg", desc: "the time i've seen more snow in my life @BigWhite" },
+    { file: "whistler.jpeg", desc: "when swiming on a Lake filled with the water of the melted snow, freezing as hell @Whistler" },
 ]
 
 //fillTirpsPics()
@@ -48,6 +48,7 @@ function fillTirpsPics() {
         newImg.setAttribute("src", 'assets/trips-pics/' + i.file);
         newImg.setAttribute("alt", i.desc);
         newImg.setAttribute("class", "trip-image");
+        newImg.setAttribute("loading", "lazy");
         tripsPicsDiv.appendChild(newImg);
     })
 }
